@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My website</title>
+    <title>Sid Ali</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet"/>
      <!-- bootstrap CDN -->
@@ -16,9 +16,152 @@
 </head>
 <body>
     <!-- add navigation menu -->
-    < nav class="nav "
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#" style="color: white;">Sid Ali</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home" style="color: white;">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" style="color: white;">Passion</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" style="color: white;">contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
 
-    
+     <!-- main banner -->
+     <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title"> Hi, lets get to know each other</h2>
+                <p class="hero_desc">I am a reseacher and a software engineer </p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section-->
+   <!-- about section-->
+   <section id="about">
+    <div class="container mt-4 pt-4">
+        <h1 class="text-center">Sid Ali</h1>
+        <div class="row mt-4">
+            <div class="col-lg-4">
+                <img src="images/sid2.jpeg" class= "imageAboutPage" alt="">
+            </div>
+
+            <div class="col-lg-8">
+                <p> Hi, I'm Sid Ali. <br>
+
+                    Building innovations and teams, currently based in 📍Nairobi via Amsterdam and Sweden. Alumna of Jomo Kenyatta University, Moringa and Flatiron school.
+                    
+                    Intrigued by design, traveling, photography, classical music, strategy, writing, art, armchair philosophy, fabulous food, and even better conversations.
+                    
+                    Seeking to be inspired, to envision the unlikely, to work hard for things that are worth it, and to be surrounded by those who bring out the best in me.
+                    
+                    Say hi on Twitter @sidali
+                </p>
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <!-- portfolio section-->
+   <section id="portfolio">
+    <div class="container mt-3">
+        <h1 class="text-center" style="padding: 16px;">I'm passionate about enviroment and sustainbility goals</h1>
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/Rainmeter - Adenosintriphosphat by panmann on DeviantArt.png" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Green Technology </h4>
+                        <p class="card-text">Great things happen when technology befreinds nature.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card portfolioContent">
+                    <img class="card-img-top" src="images/sgd.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Sustainability is the Future</h4>
+                        <p class="card-text">
+
+                            CEO-led initiative to create a fertile ground for a responsible and global climate deal in Paris 2015
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card portfolioContent">
+                    <img class="card-img-top" src="images/un goals.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">The Global Goals should be our blueprint for better world future</h4>
+                        <p class="card-text">It is the definet guide for the young people to live in a better world not a broken one..</p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center" style="text-align:left; right: 42%;">Contact Me</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                    <!-- <h2>Location</h2>
+                    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                        <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=kilimani&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                            </iframe>
+                        </div>
+                        <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
+                        <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+                        </style>
+                    </div>
+                </div>
+
+                <div class="col-lg-6"> -->
+                    <!-- form fields -->
+                    <form>
+                        <input type="text" class="form-control form-control-lg" placeholder="Name">
+                        <input type="email" class="form-control mt-3" placeholder="Email">
+                        <input type="text" class="form-control mt-3" placeholder="Subject">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                        </div>
+                    </form>
+                    <button type="button" class="btn btn-success mt-3">Contact Me</button>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section-->
+    <footer id="footer">
+        <div class="container-fluid">
+        
+        </div>
+    </footer>
 <script src="index.js"></script>
 </body>
 
